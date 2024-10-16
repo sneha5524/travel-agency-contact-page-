@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #08071d;
+}
+
+.container {
+    
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://media.istockphoto.com/id/1290015227/photo/contact-us-concept-with-phone-email-speech-bubble-and-location-icons-with-plexus-and-red.jpg?s=1024x1024&w=is&k=20&c=EJSiQ35Xvd7LaDtj_QzrsGOUW43NRHjTOvtuzUc1KAY=") no-repeat center center/cover;
+}
+
+.left-side {
+    width: 300px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    color: #100f0f;
+}
+
+.right-side {
+    flex: 1;
+    max-width: 600px;
+}
+
+.right-side form {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    color: #070707;
+}
+
+.right-side form h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.right-side form input, .right-side form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    color: black;
+}
+
+.right-side form input::placeholder, .right-side form textarea::placeholder {
+    color: #ddd;
+}
+
+.right-side form textarea {
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.right-side form input[type="submit"] {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.right-side form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.details i {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.details .topic {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.details .text-one, .details .text-two {
+    color: #ccc;
+}
+
+.back-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.back-button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+
+.back-button a:hover {
+    background: #fff;
+    color: black;
+}
+#nav{
+    background-color: black;
+}
